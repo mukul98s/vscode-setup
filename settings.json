@@ -1,17 +1,17 @@
 {
-  "editor.fontSize": 18,
+  "editor.fontSize": 20,
   "editor.tabSize": 2,
   "telemetry.telemetryLevel": "off",
-  "editor.fontFamily": "Operator Mono, Menlo, Monaco, 'Courier New', monospace",
+  // You can change the fonts as per your preference
+  "editor.fontFamily": "Dank Mono",
   "editor.lineHeight": 28,
   "editor.formatOnSave": true,
-  "editor.letterSpacing": 1.5,
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairsHorizontal": true,
   "editor.guides.bracketPairs": true,
+  "editor.guides.indentation": true,
   "files.trimTrailingWhitespace": true,
-  "editor.fontWeight": "300",
-  "editor.fontLigatures": true,
+  "editor.fontWeight": "400",
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
@@ -19,12 +19,15 @@
   "editor.cursorStyle": "line",
   "editor.cursorWidth": 3,
   "editor.renderWhitespace": "none",
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "editor.cursorBlinking": "expand",
+  "editor.colorDecorators": false,
+  "git.confirmSync": false,
+  "git.autofetch": true,
   "terminal.integrated.cursorBlinking": true,
   "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[javascript]": {
@@ -34,9 +37,6 @@
     "editorCursor.foreground": "#ffff00",
     "terminalCursor.foreground": "#ffff00"
   },
-  "editor.colorDecorators": false,
-  "git.confirmSync": false,
-  "git.autofetch": true,
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -52,7 +52,8 @@
   "explorer.confirmDelete": false,
   "workbench.startupEditor": "none",
   "files.exclude": {
-    "**/*.exe": true
+    "**/*.exe": true,
+    "**/node_modules": true
   },
   "extensions.ignoreRecommendations": true,
   "terminal.explorerKind": "external",
@@ -62,5 +63,16 @@
   "terminal.integrated.fontSize": 16,
   "terminal.integrated.fontWeight": 500,
   "terminal.integrated.letterSpacing": 1,
-  "workbench.sideBar.location": "right"
+  "workbench.sideBar.location": "right",
+  "workbench.iconTheme": "vscode-icons",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "update.enableWindowsBackgroundUpdates": false,
+  "update.mode": "manual",
+  "vsicons.dontShowNewVersionMessage": true
 }
